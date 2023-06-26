@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.05rem;
+  margin: 0;
+  padding: 25px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 8.5in;
+  height: 11in;
+  margin: 0 auto;
+  gap: 5px;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.section {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  width: 100%;
+}
+.sub-header {
+  font-style: italic;
+  font-size: 1.2rem;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.university {
+  font-size: 1.1rem;
+}
+
+.associates {
+  margin-top: 5px;
+}
+.project {
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 1.1rem;
+}
+
+.description {
+  margin-left: 10px;
+}
+
+ul {
+  margin-left: 15px;
+}
+
+li {
+  margin-bottom: 3px;
+}
+
+.company {
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space-between;
+}
+
+.remote {
+  font-size: 1rem;
+}
+
+.coursera {
+  font-size: 1.1rem;
+}
+
+.technical {
+  font-size: 1.1rem;
+  margin-top: 3px;
+}
+
+.certificates li {
+  font-size: 0.85rem;
+}
+
+.skills li {
+  font-size: 0.8rem;
+}
