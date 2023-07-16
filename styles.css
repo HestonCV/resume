@@ -5,17 +5,21 @@
 }
 
 body {
-  font-size: 0.75rem;
+  font-size: 0.82rem;
   margin: 0;
   padding: 25px;
   background-color: #db3f59;
+}
+
+a {
+  color: #0645ad;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0.5in;
+  padding: 0.45in;
   width: 8.5in;
   height: 11in;
   margin: 0 auto;
@@ -44,7 +48,20 @@ body {
   margin-bottom: 15px;
 }
 
+.degree {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.university > span {
+  font-size: 0.82rem;
+  font-weight: 400;
+}
+
 .university {
+  display: flex;
+  justify-content: space-between;
   font-size: 1.1rem;
 }
 
@@ -78,7 +95,12 @@ li {
 }
 
 .remote {
-  font-size: 1rem;
+  font-size: 0.82rem;
+  font-weight: 400;
+}
+
+.date-range {
+  font-weight: 600;
 }
 
 .coursera {
@@ -88,14 +110,6 @@ li {
 .technical {
   font-size: 1.1rem;
   margin-top: 3px;
-}
-
-.certificates li {
-  font-size: 0.85rem;
-}
-
-.skills li {
-  font-size: 0.8rem;
 }
 
 @media screen and (max-width: 768px) {
