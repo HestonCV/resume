@@ -8,6 +8,7 @@ body {
   font-size: 0.82rem;
   margin: 0;
   padding: 25px;
+  padding-top: 10px;
   background-color: #db3f59;
 }
 
@@ -27,11 +28,20 @@ a {
   background-color: white;
 }
 
+.mission {
+  border-top: 1px solid black;
+  text-align: center;
+  padding: 0 10%;
+  padding-top: 10px;
+  margin-top: 5px;
+  font-size: 0.97rem;
+}
+
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 
 .section {
@@ -74,6 +84,13 @@ a {
 
 .title {
   font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title > span {
+  font-size: 0.82rem;
+  font-weight: 400;
 }
 
 .description {
@@ -86,6 +103,20 @@ ul {
 
 li {
   margin-bottom: 3px;
+}
+
+.links {
+  display: flex;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 5px;
+  gap: 10px;
+  width: 475px;
+}
+
+.links.bottom {
+  margin-top: 5px;
+  width: 355px;
 }
 
 .company {
@@ -110,6 +141,12 @@ li {
 .technical {
   font-size: 1.1rem;
   margin-top: 3px;
+}
+
+.availability {
+  margin-top: 5px;
+  font-style: italic;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
