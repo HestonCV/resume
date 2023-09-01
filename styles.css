@@ -30,9 +30,10 @@ a {
 
 .mission {
   border-top: 1px solid black;
+  font-style: italic;
   text-align: center;
   padding: 0 10%;
-  padding-top: 10px;
+  padding-top: 15px;
   margin-top: 5px;
   font-size: 0.97rem;
 }
