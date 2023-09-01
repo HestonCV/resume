@@ -135,6 +135,10 @@ li {
   font-weight: 600;
 }
 
+.certificates.sub-header {
+  margin-bottom: 10px;
+}
+
 .coursera {
   font-size: 1.1rem;
 }
