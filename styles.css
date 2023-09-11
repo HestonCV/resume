@@ -122,7 +122,7 @@ li {
 
 .company {
   display: flex;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   justify-content: space-between;
 }
 
@@ -141,6 +141,13 @@ li {
 
 .coursera {
   font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coursera > span {
+  font-size: 0.82rem;
+  font-weight: 400;
 }
 
 .technical {
