@@ -5,10 +5,10 @@
 }
 
 body {
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   margin: 0;
   padding: 25px;
-  padding-top: 10px;
+  padding-top: 0px;
   background-color: #db3f59;
 }
 
@@ -40,9 +40,15 @@ a {
 
 .header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  font-size: 0.8rem;
+  gap: 15px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 2rem;
 }
 
 .section {
@@ -83,6 +89,10 @@ a {
   margin-bottom: 5px;
 }
 
+.project.bottom {
+  margin-top: 5px;
+}
+
 .title {
   font-size: 1.1rem;
   display: flex;
@@ -108,16 +118,14 @@ li {
 
 .links {
   display: flex;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  padding: 5px;
+  margin-top: 5px;
   gap: 10px;
-  width: 475px;
+  width: 700px;
 }
 
 .links.bottom {
   margin-top: 5px;
-  width: 355px;
+  width: 700px;
 }
 
 .company {
