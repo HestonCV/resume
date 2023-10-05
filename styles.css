@@ -5,9 +5,10 @@
 }
 
 body {
-  font-size: 0.95rem;
+  font-size: 0.91rem;
   margin: 0;
   padding: 25px;
+  padding-left: 7px;
   padding-top: 0px;
   background-color: #db3f59;
 }
@@ -21,6 +22,7 @@ a {
   flex-direction: column;
   align-items: center;
   padding: 0.45in;
+  padding-top: 25px;
   width: 8.5in;
   height: 11in;
   margin: 0 auto;
